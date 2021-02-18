@@ -34,5 +34,5 @@ jobs:
     - name: Generate Report
       run: |
          pip install coverage
-         coverage run -m unittest
+         coverage run -m test_postinumerot
     
